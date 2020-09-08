@@ -63,7 +63,7 @@ function hero_Moving_Shooting(){
         if(touche == 81 || touche == 113){  //Déplacement vers la gauche
 
             ctx.clearRect(heroXY.X - heroXY.size , heroXY.Y - heroXY.size, (heroXY.size*2), (heroXY.size*2));
-            heroXY.X -= 1;
+            heroXY.X -= 2;
             console.log(heroXY.X);
             heroSkin(heroXY.X , heroXY.Y, heroXY.size );
 
@@ -72,7 +72,7 @@ function hero_Moving_Shooting(){
         if(touche == 68 || touche == 100){  // Déplacement vers la droite
             
             ctx.clearRect(heroXY.X - heroXY.size , heroXY.Y - heroXY.size, (heroXY.size*2), (heroXY.size*2));
-            heroXY.X += 1;
+            heroXY.X += 2;
             console.log(heroXY.X);
             heroSkin(heroXY.X , heroXY.Y, heroXY.size );
         }
