@@ -1,0 +1,109 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+html {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+body {
+
+    background-color: lightcyan;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/*----------------- Barre du haut du jeu ----------------- */
+
+
+
+.gameTitle, #credits{
+
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.stats {
+
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+
+#startButton {
+
+    display: block;
+    margin: auto;
+    font-size: 2em;
+
+}
+
+
+
+
+
+/*----------------- Contenu principal -----------------*/
+
+#mainBar, #headBar {
+
+    display: flex;
+
+}
+
+
+
+
+#leftColumn, #titleStart {
+
+    width: 10%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid rgba(124, 186, 233, 0.8);
+
+}
+
+
+canvas {	
+    
+    width: 70%;
+
+    height: 80%;
+
+    border: 2px solid rgba(124, 186, 233, 0.8);
+
+    margin: 10px auto;
+
+    background-color: black;
+
+}
+
+
+#stateBar {
+
+    width: 70%; 
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    border: 2px solid rgba(124, 186, 233, 0.8);
+ 
+ }
+
+
+#rightColumn, #rightHead {
+
+    width: 10%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid rgba(124, 186, 233, 0.8);
+
+}
