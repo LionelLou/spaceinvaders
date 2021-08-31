@@ -71,7 +71,7 @@ function getKey(event) {
                 height: 10,
                 speed: 4
 
-            });
+            })
         }
     }
 
