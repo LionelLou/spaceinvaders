@@ -1,6 +1,6 @@
 
 
-// Gestion de colision Monstre / Projectile et des Hitboxs
+// Gestion de colision Monstre 
 
 function collisionDetection( laserX, laserY, monsterXY ){
 
